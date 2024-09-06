@@ -6,7 +6,7 @@ Este projeto foi desenvolvido como parte da **Imersão Alura**, focado em aprese
 
 O **Imersão Alura - Gemini** é um projeto simples em HTML, CSS e JavaScript que permite ao usuário buscar e filtrar canais educacionais de tecnologia diretamente na página, exibindo resultados baseados em palavras-chave ou temas selecionados. Quando nenhum canal é encontrado, uma mensagem de alerta é exibida para o usuário.
 
-### 🌐 [Acesse o projeto online aqui!](https://imersao-alura-gemini-seven.vercel.app/)
+### 🌐 [Acesse o projeto online aqui!](https://imersao-alura-gemini-mu.vercel.app/)
 
 ## 🔍 Funcionalidades
 
