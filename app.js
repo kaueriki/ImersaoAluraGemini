@@ -21,7 +21,7 @@ function pesquisar() {
 
     for (let dado of dados) {
         let matchTitulo = dado.titulo.toLowerCase().includes(inputSearch);
-        let matchTema = temaSelecionado === "" || dado.temas.includes(temaSelecionado);
+        let matchTema = temaSelecionado === "" || dado.temas.join().includes(temaSelecionado);
 
         if (matchTitulo && matchTema) {
             resultados += `
@@ -39,12 +39,11 @@ function pesquisar() {
         }
     }
 
-
     if (!encontrou) {
         semResultados.style.display = "block";
-        section.innerHTML = ""; 
     } else {
         semResultados.style.display = "none";
-        section.innerHTML = resultados; 
     }
+
+    section.innerHTML = resultados;
 }
