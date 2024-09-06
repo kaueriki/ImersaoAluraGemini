@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Canais Educacionais de Tecnologia</title>
+</head>
+<body>
+    <header>
+        <h1>Canais de Tecnologia Educacional</h1>
+    </header>
+    <main>
+        <section class="search-bar">
+            <input type="text" id="input-search" placeholder="Digite o nome do canal ou algum tema">
+            <select id="tema-filter">
+                <option value="">Todos canais</option>
+            </select>
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+            <p class="sem-resultados" id="sem-resultados">Nenhum canal encontrado.</p>
+        </section>
+    </main>
+    <footer>
+        <p>2024 - Atletas do Brasil. Todos direitos reservados</p>
+        <p>Entre em contato pelo email: kaueriki@gmail.com</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
