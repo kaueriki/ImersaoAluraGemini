@@ -47,7 +47,9 @@ h1 {
 .search-bar input, .search-bar select {
     padding: 0.8rem;
     border-radius: 1rem;
-    border: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid white;
+    color:black;
     font-size: 1rem;
     width: 18rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -82,8 +84,9 @@ h1 {
     max-width: 55%;
     max-height: 46vh; /* Define um tamanho máximo para evitar overflow */
     overflow-y: auto;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.5);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid white;    
     margin-left: auto;
     margin-right: auto; /* Centraliza horizontalmente */
 }
@@ -136,11 +139,12 @@ footer {
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
     text-align: center;
+    flex-direction: row;
     padding: 0.8rem 0;
     width: 100%;
     font-size: 0.9rem;
     box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.3);
-    margin-top: auto; /* Mantém o rodapé no fim da página */
+    margin-top: auto; 
 }
 
 /* Responsividade para tablets */

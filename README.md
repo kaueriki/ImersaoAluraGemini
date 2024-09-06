@@ -4,7 +4,9 @@ Este projeto foi desenvolvido como parte da **Imersão Alura**, focado em aprese
 
 ## 📚 Sobre o projeto
 
-O **Imersão Alura - Gemini** é um projeto simples em HTML, CSS e JavaScript que permite ao usuário buscar e filtrar canais educacionais de tecnologia diretamente na página, exibindo resultados baseados em palavras-chave ou temas selecionados. Quando nenhum canal é encontrado, uma mensagem de alerta é exibida para o usuário.
+Eu escolhi como tema do meu projeto os melhores canais para aprender tecnologia, visto que a maioria das pessoas que fizeram o curso(inclusive eu)  ainda são iniciantes e precisamos aprender muito ainda, e uma alternativa é vendo vídeos educacionais como as aulas da Imersão Dev com Gemini.
+
+Criei um buscador simples e funcional para te ajudar a encontrar os melhores canais para aprender tecnnologia! É só digitar o nome do canal, o tema ou a linguagem que você deseja, e pronto! O rresultado te mostra tudo sobre o canal: descrição, número de inscritos e o link do canal! ️
 
 ### 🌐 [Acesse o projeto online aqui!](https://imersao-alura-gemini-mu.vercel.app/)
 
